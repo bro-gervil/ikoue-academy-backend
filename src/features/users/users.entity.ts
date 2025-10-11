@@ -1,7 +1,7 @@
 export type UserEntity = {
 	id: string;
 	email: string;
-	password: string;
+	password?: string;
 	firstName: string;
 	lastName: string;
 	role: string; // admin, client, technician
